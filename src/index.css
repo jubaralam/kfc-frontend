@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.card-bg-color {
+  background-color: rgb(239, 238, 235);
+}
+.w-cover {
+  width: 100%;
+}
+.show-menu {
+  display: block;
+}
+@media (max-width: 660px) {
+  .hide-menu {
+    display: none;
+  }
+  .show-humburger {
+    display: block;
+  }
+}
+
+@media (min-width: 661px) {
+  .hide-menu {
+    display: block; /* or whatever display type it originally had */
+    /* background: red; */
+  }
+}
