@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import Categories from "./categories";
+// import Categories from "./categories";
 import DisplayingItems from "./DisplayingItems";
 import MenuCategory from "./MenuCategory";
 
